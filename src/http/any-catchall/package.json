@@ -9,10 +9,10 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@remix-run/cli": "pre",
-    "@remix-run/data": "pre",
-    "@remix-run/architect": "pre",
-    "@remix-run/react": "pre",
+    "@remix-run/cli": "^0.8.1",
+    "@remix-run/data": "^0.8.1",
+    "@remix-run/architect": "^0.8.1",
+    "@remix-run/react": "^0.8.1",
     "aws-sdk": "2.796.0",
     "@architect/functions": "^3.13.3",
     "react": "^17.0.1",
