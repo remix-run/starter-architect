@@ -1,4 +1,4 @@
-# Remix Starter Architect (AWS CloudFormation)
+# Remix Starter for Architect (AWS CloudFormation)
 
 Welcome to Remix!
 
