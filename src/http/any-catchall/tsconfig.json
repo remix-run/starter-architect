@@ -1,7 +1,11 @@
 {
-  "files": [],
-  "references": [
-    { "path": "app" },
-    { "path": "data" }
-  ]
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "target": "es2019",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
 }

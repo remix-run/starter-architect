@@ -3,16 +3,14 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "postinstall": "tsc -b",
-    "build": "remix build && tsc -b",
-    "dev": "concurrently \"remix run\" \"tsc -b -w --preserveWatchOutput\"",
-    "start": "node server.js"
+    "build": "remix build",
+    "start": "remix run"
   },
   "dependencies": {
-    "@remix-run/cli": "^0.8.1",
-    "@remix-run/data": "^0.8.1",
-    "@remix-run/architect": "^0.8.1",
-    "@remix-run/react": "^0.8.1",
+    "@remix-run/cli": "pre",
+    "@remix-run/data": "pre",
+    "@remix-run/architect": "pre",
+    "@remix-run/react": "pre",
     "aws-sdk": "2.796.0",
     "@architect/functions": "^3.13.3",
     "react": "^17.0.1",
