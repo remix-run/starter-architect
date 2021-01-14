@@ -6,6 +6,5 @@
     "target": "es2019",
     "strict": true,
     "skipLibCheck": true
-  },
-  "exclude": ["node_modules"]
+  }
 }

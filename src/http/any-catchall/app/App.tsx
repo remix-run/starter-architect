@@ -7,6 +7,7 @@ export default function App() {
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
+        <link rel="icon" href="/_static/favicon.ico" type="image/x-icon" />
         <Meta />
         <Styles />
       </head>
