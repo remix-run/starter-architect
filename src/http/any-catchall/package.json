@@ -7,10 +7,10 @@
     "start": "remix run"
   },
   "dependencies": {
-    "@remix-run/cli": "^0.9.1",
-    "@remix-run/data": "^0.9.1",
-    "@remix-run/architect": "^0.9.1",
-    "@remix-run/react": "^0.9.1",
+    "@remix-run/cli": "^0.10.0",
+    "@remix-run/data": "^0.10.0",
+    "@remix-run/architect": "^0.10.0",
+    "@remix-run/react": "^0.10.0",
     "aws-sdk": "2.796.0",
     "@architect/functions": "^3.13.3",
     "react": "^17.0.1",
