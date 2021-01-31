@@ -76,7 +76,7 @@ And then from the root of the project, deploy with `arc`.
 
 ```bash
 cd ../../..
-arc deploy
+arc deploy prduction
 ```
 
 That's it!
