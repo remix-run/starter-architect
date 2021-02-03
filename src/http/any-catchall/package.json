@@ -7,12 +7,12 @@
     "start": "remix run"
   },
   "dependencies": {
-    "@remix-run/cli": "^0.10.0",
-    "@remix-run/data": "^0.10.0",
-    "@remix-run/architect": "^0.10.0",
-    "@remix-run/react": "^0.10.0",
-    "aws-sdk": "2.796.0",
     "@architect/functions": "^3.13.3",
+    "@remix-run/architect": "^0.11.0-pre.0",
+    "@remix-run/cli": "^0.11.0-pre.0",
+    "@remix-run/data": "^0.11.0-pre.0",
+    "@remix-run/react": "^0.11.0-pre.0",
+    "aws-sdk": "2.796.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^6.0.0-beta.0",
