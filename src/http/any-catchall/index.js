@@ -1,2 +1,4 @@
 const { createRequestHandler } = require("@remix-run/architect");
-exports.handler = createRequestHandler();
+exports.handler = createRequestHandler({
+  build: require("./build"),
+});

@@ -6,16 +6,16 @@ This is a starter repo for using [Remix](https://remix.run) with [Architect](htt
 
 ## Development
 
-The root of this project is an Architect project that follows Architect's project conventions. the Remix portion is just one endpoint found at `src/http/any-catchall`.
+The root of this project is an Architect project that follows Architect's project conventions. The Remix portion is just one endpoint found at `src/http/any-catchall`.
 
-When developing your app, you'll need two terminal tabs, one to run Architect's sandbox, and the other to run the Remix development asset server. In production, however, the Remix asset server won't be used because your assets will be built and shipped with the server.
+When developing your app, you'll need two terminal tabs, one to run Architect's sandbox, and the other to run the Remix development server. In production, however, the Remix development server won't be used because your assets will be built and shipped with the server.
 
 ### From the root of this project
 
-Architect recommends installing their CLI globally:
+Architect recommends installing their CLI and the AWS sdk globally:
 
 ```sh
-$ npm install -g @architect/architect
+$ npm i -g @architect/architect aws-sdk
 ```
 
 Now all you need to do from the root of this project is start the Architect sandbox:
@@ -53,14 +53,13 @@ $ npm start
 
 The dev server automatically rebuilds as your source files change. To see your changes, refresh the browser.
 
-> Note: Hot module reloading is coming soon, which will allow you to see your
-> changes without refreshing.
-
 Now you should be able to visit http://localhost:3333. (Note that `:3334` is not your server, it's the Remix development asset server).
 
 ## Deploying
 
-From the Remix http handler, build the app for production:
+First, you'll need to have the AWS CLI installed, [here are the instructions](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html). Then follow the Architect setup instructions: https://arc.codes/docs/en/guides/get-started/detailed-aws-setup.
+
+Now you're ready to deploy. From the Remix http handler directory, build the app for production:
 
 ```sh
 $ cd src/http/any-catchall
