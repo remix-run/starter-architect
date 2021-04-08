@@ -1,4 +1,9 @@
-/public/build
+/backend/build
+/public/build/
+node_modules/
+
+/.cache/
+
 sam.json
 sam.yaml
 package-lock.json

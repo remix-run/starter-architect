@@ -2,7 +2,9 @@
 remix-starter-architect
 
 @http
-any /*
+/*
+  method any
+  src backend
 
 @static
 
