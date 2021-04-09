@@ -7,6 +7,12 @@
     "build": "npm run clean && remix build2",
     "dev": "remix run2"
   },
+  "arc": {
+    "app": "app-ns",
+    "http": {
+      "/*": {"src": "backend", "method": "any"}
+    }
+  },
   "dependencies": {
     "@architect/functions": "^3.13.3",
     "@remix-run/architect": "^0.15.3",
